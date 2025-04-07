@@ -194,7 +194,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/placeholder-hero.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/IMG_2334.jpeg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -325,10 +325,17 @@ section {
 }
 
 .project-image {
-    height: 200px;
+    height: 250px;
     background-color: #ddd;
     background-size: cover;
     background-position: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }
 
 .placeholder-image {

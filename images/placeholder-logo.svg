@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100">
-  <rect width="200" height="100" fill="#4caf50" rx="10" ry="10"/>
-  <text x="100" y="45" font-family="Arial" font-size="22" text-anchor="middle" fill="#fff">Torres</text>
-  <text x="100" y="70" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">Landscaping & Paint Inc</text>
-  <path d="M70,30 Q100,10 130,30 T160,50 Q100,80 40,50 T70,30" fill="#ffc107" opacity="0.6"/>
-</svg> 
