@@ -287,6 +287,23 @@ section {
     font-weight: 600;
 }
 
+.service-card p {
+    margin-bottom: 20px;
+}
+
+.service-list {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 15px;
+    list-style-type: disc;
+}
+
+.service-list li {
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 0.95rem;
+}
+
 /* Projects Section */
 .projects-grid {
     display: grid;
