@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torres Landscaping & Paint Inc</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/placeholder-logo.svg" alt="Torres Landscaping & Paint Inc Logo">
+            </div>
+            <nav>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact" class="cta-btn">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Professional Landscaping & Painting Services</h1>
+                    <p>Serving Laredo, Texas and surrounding areas including Laredo College campuses and city contracts.</p>
+                    <div class="hero-buttons">
+                        <a href="#quote" class="primary-btn">Get a Quote</a>
+                        <a href="#contact" class="secondary-btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Landscaping</h3>
+                        <p>Professional landscape design, installation, and maintenance services.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <h3>Painting</h3>
+                        <p>Interior and exterior painting services for residential and commercial properties.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <h3>Tree Service</h3>
+                        <p>Tree trimming, removal, and maintenance to keep your property safe and beautiful.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Commercial Services</h3>
+                        <p>Specialized services for city contracts and educational institutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Our Projects</h2>
+                <p class="section-description">Take a look at some of our recent projects in Laredo, Texas.</p>
+                <div class="projects-grid">
+                    <!-- Project placeholders, to be filled with actual projects later -->
+                    <div class="project-card">
+                        <div class="project-image placeholder-image"></div>
+                        <div class="project-info">
+                            <h3>Laredo College Campus</h3>
+                            <p>Landscaping and maintenance</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image placeholder-image"></div>
+                        <div class="project-info">
+                            <h3>Commercial Building</h3>
+                            <p>Exterior painting</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image placeholder-image"></div>
+                        <div class="project-info">
+                            <h3>City Park</h3>
+                            <p>Landscape design and installation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="#" class="secondary-btn">View More Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="quote" class="quote">
+            <div class="container">
+                <h2 class="section-title">Get a Free Quote</h2>
+                <div class="quote-form-container">
+                    <form id="quoteForm" class="quote-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="landscaping">Landscaping</option>
+                                <option value="painting">Painting</option>
+                                <option value="tree-service">Tree Service</option>
+                                <option value="commercial">Commercial Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="primary-btn">Submit Quote Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Torres Landscaping & Paint Inc</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Torres Landscaping & Paint Inc is a professional service provider based in Laredo, Texas. With years of experience, we specialize in both landscaping and painting services for residential, commercial, and institutional clients.</p>
+                        <p>We pride ourselves on our quality workmanship, reliability, and commitment to customer satisfaction. Our team has successfully completed numerous projects for the City of Laredo and Laredo College campuses.</p>
+                        <p>Our mission is to transform spaces and enhance the beauty of properties throughout Laredo while providing exceptional customer service.</p>
+                    </div>
+                    <div class="about-image">
+                        <div class="placeholder-image"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>(956) 237-3378</p>
+                                <p>(956) 692-8796</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@torreslandscaping.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Laredo, TX</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Hours</h3>
+                                <p>Monday - Friday: 8am - 6pm</p>
+                                <p>Saturday: 9am - 2pm</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="contactName">Name</label>
+                                <input type="text" id="contactName" name="contactName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email</label>
+                                <input type="email" id="contactEmail" name="contactEmail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactPhone">Phone</label>
+                                <input type="tel" id="contactPhone" name="contactPhone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message</label>
+                                <textarea id="contactMessage" name="contactMessage" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="primary-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/placeholder-logo.svg" alt="Torres Landscaping & Paint Inc Logo">
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> (956) 237-3378 / (956) 692-8796</p>
+                    <p><i class="fas fa-envelope"></i> info@torreslandscaping.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Laredo, TX</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Torres Landscaping & Paint Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
